@@ -1,0 +1,38 @@
+.monster img{
+    width: 20rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.circle{
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(153, 0, 204, 0.75),
+        rgba(190, 92, 237, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.signin{
+    margin-top: 2em;
+}
+
+.signin button{
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #9900cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: bolder;
+    transition: all 0.75s ease-out;
+}
+
+.signin button:hover{
+    background: #bf5ced;
+}
