@@ -16,16 +16,17 @@
             </div>
             <div class="info">
                 <h1>Awesome Cart</h1>
-                <h3>Sign In</h3>
+                <h3>Welcome back! Login to access your Awesome Cart.</h3>
                 <form method="POST" action="../functions/signin.php">
                     <input type="text" placeholder="Username" name="username">
                     <input type="password" placeholder="Password" name="password">
-                    <a class="recovery" href="./recovery.php">Forgot my password</a>
                     <div class="signup">
                         <button type="submit">Let's go!</button>
                     </div>
                 </form>
-                <div class="accsignup"> 
+                <div class="buttons"> 
+                    <h3>Did you <a href="./recovery.php">forget your passoword?</a></h3>
+                    <h3> or </h3>
                     <h3>Dont have an account? <a href="./signup.php">Sign Up</a></h3>
                 </div>
             </div>

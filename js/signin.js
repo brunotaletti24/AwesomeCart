@@ -8,7 +8,7 @@ const title = document.querySelector('.info h1');
 const subtitle = document.querySelector('.info h3');
 const form = document.querySelector('.info form');
 const signin = document.querySelector('.signin');
-const signup = document.querySelector('.accsignup');
+const buttons = document.querySelector('.buttons');
 
 // Moving Animation Event
 container.addEventListener('mousemove', (e) =>{
@@ -27,6 +27,7 @@ container.addEventListener('mouseenter', (e) => {
     subtitle.style.transform = "translateZ(50px)";
     form.style.transform = "translateZ(50px)";
     signin.style.transform = "translateZ(30px)";
+    buttons.style.transform = "translateZ(30px)";
 });
 
 // Animate Out
@@ -51,4 +52,7 @@ container.addEventListener('mouseleave', (e) => {
     signin.style.transition = 'all 0.5s ease';
     
     signup.style.transition = 'all 0.5s ease';
+
+    buttons.style.transform = "translateZ(0px)";
+    buttons.style.transition = 'all 0.5s ease';
 });
