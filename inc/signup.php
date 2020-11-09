@@ -18,8 +18,10 @@
                 <h1>Awesome Cart</h1>
                 <h3>Sign Up</h3>
                 <form method="POST" action="../functions/signup.php">
+                    <input type="text" placeholder="Name" name="name">
                     <input type="text" placeholder="Username" name="username">
                     <input type="email" placeholder="Email" name="email">
+                    <input type="text" placeholder="Phone number" name="phone">
                     <input type="password" placeholder="Password" name="password">
                     <div class="signup">
                         <button type="submit">Lets go!</button>
