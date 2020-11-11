@@ -24,6 +24,11 @@ table{
     margin-right: 1rem;
 }
 
+.product h1{
+    display: inline;
+    float: right;
+}
+
 .product h2{
     text-align: left;
 }

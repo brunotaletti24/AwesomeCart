@@ -3,23 +3,3 @@
     z-index: 2;
     transition: all 0.75s ease-out;
 }
-
-.recovery{
-    margin-top: 2em;
-}
-
-.recovery button{
-    width: 100%;
-    padding: 1rem 0rem;
-    background: #9900cc;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 40px;
-    font-weight: bolder;
-}
-
-.recovery button:hover{
-    background: #bf5ced;
-    transition: all 0.75s ease-out;
-}
