@@ -16,7 +16,7 @@
             </div>
             <div class="info">
                 <h1>Awesome Cart</h1>
-                <h3>Sign Up</h3>
+                <h3>Create your account, and get the best discount codes of the world!</h3>
                 <form method="POST" action="../functions/signup.php">
                     <input type="text" placeholder="First Name" name="first_name">
                     <input type="text" placeholder="Last Name" name="last_name">
@@ -25,11 +25,11 @@
                     <input type="text" placeholder="Phone number" name="phone">
                     <input type="password" placeholder="Password" name="password">
                     <div class="signup">
-                        <button type="submit">Lets go!</button>
+                        <button class="btn" type="submit">Lets go!</button>
                     </div>
                 </form>
                 <div class="signin"> 
-                    <h3>Already have an account? <a href="./signin.php">Sign In</a></h3>
+                    <h3>Already have an account? <a class="btn-link" href="./signin.php">Sign In</a></h3>
                 </div>
             </div>
         </div>

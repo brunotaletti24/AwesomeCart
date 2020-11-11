@@ -4,33 +4,6 @@
     transition: all 0.75s ease-out;
 }
 
-.signin, .signup, .buttons{
-    margin-top: 2em;
-}
-
-.signin button{
-    width: 100%;
-    margin: 1% 0;
-    padding: 1rem 0rem;
-    background: #9900cc;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 40px;
-    font-weight: bolder;
-}
-
-.signin button:hover{
-    background: #bf5ced;
-    transition: all 0.75s ease-out;
-}
-
-.buttons a{
-    color: #9900cc;
-    text-decoration: none;
-    transition: all 0.75s ease-out;
-}
-
-.buttons a:hover{
-    color: #bf5ced;
+.buttons{
+    margin-top: 1em;
 }
