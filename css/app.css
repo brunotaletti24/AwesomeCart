@@ -2,9 +2,6 @@ table{
     width: 100%;
     overflow: auto;
 }
-.products{
-    transition: all 0.75s ease-out;
-}
 
 .product{
     width: 100%;
@@ -12,6 +9,7 @@ table{
     border-radius: 20px;
     padding: 5% 5%;
     margin: 1% 0;
+    transition: all 0.75s ease-out;
 }
 
 .product img{
