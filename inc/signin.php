@@ -21,13 +21,13 @@
                     <input type="text" placeholder="Username" name="username">
                     <input type="password" placeholder="Password" name="password">
                     <div class="signin">
-                        <button type="submit">Let's go!</button>
+                        <button class="btn" type="submit">Login</button>
                     </div>
                 </form>
                 <div class="buttons"> 
-                    <h3>Did you <a href="./recovery.php">forget your passoword?</a></h3>
-                    <h3> or </h3>
-                    <h3>Dont have an account? <a href="./signup.php">Sign Up</a></h3>
+                    <h3>Did you <a class="btn-link" href="./recovery.php">forget your passoword?</a></h3>
+                    <h3>or</h3>
+                    <h3>Dont have an account? <a class="btn-link" href="./signup.php">Sign Up</a></h3>
                 </div>
             </div>
         </div>

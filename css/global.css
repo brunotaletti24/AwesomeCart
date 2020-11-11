@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
     background-image: url("../img/galaxy.jpg");
     background-repeat: repeat;
+    background-size: cover;
     min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5%;
     perspective: 1000px;
-    font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -93,18 +94,21 @@ body{
 }
 
 .btn{
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    vertical-align: middle;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .20s ease-in-out, background-color .20s ease-in-out, border-color .20s ease-in-out, box-shadow .20s ease-in-out;
+    width: 100%;
+    margin: 1% 0;
+    padding: 1rem 0rem;
+    background: #9900cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.75s ease-out;
+}
+
+.btn:hover{
+    background: #bf5ced;
 }
 
 .btn-block{
@@ -112,16 +116,14 @@ body{
     width: 100%;
 }
 
-.btn-purple{
-    color: #fff;
-    background-color: #9900cc;
-    border-color: #9900cc;
+.btn-link{
+    color: #9900cc;
+    text-decoration: none;
+    transition: all 0.75s ease-out;
 }
 
-.btn-purple:hover{
-    color: #fff;
-    background-color: #bf5ced;
-    border-color: #bf5ced;
+.btn-link:hover{
+    color: #bf5ced;
 }
 
 .navbar{
