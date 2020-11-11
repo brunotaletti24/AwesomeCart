@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/recovery.css">
-    <title>Awesome Cart</title>
+    <title>Awesome Cart - Recovery Password</title>
 </head>
 <body>
     <div class="container">

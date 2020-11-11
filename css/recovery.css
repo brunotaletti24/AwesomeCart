@@ -4,19 +4,6 @@
     transition: all 0.75s ease-out;
 }
 
-.circle{
-    width: 15rem;
-    height: 15rem;
-    background: linear-gradient(
-        to right,
-        rgba(240, 109, 22, 0.75),
-        rgba(255, 156, 90, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-
 .recovery{
     margin-top: 2em;
 }
@@ -24,7 +11,7 @@
 .recovery button{
     width: 100%;
     padding: 1rem 0rem;
-    background: #f6914d;
+    background: #9900cc;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -33,6 +20,6 @@
 }
 
 .recovery button:hover{
-    background: #f89f63;
+    background: #bf5ced;
     transition: all 0.75s ease-out;
 }

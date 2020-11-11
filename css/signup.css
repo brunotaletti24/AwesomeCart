@@ -4,19 +4,6 @@
     transition: all 0.75s ease-out;
 }
 
-.circle{
-    width: 15rem;
-    height: 15rem;
-    background: linear-gradient(
-        to right,
-        rgba(109, 201, 63, 0.75),
-        rgba(139, 206, 100, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-
 .signup, .signin{
     margin-top: 2em;
 }
@@ -24,7 +11,7 @@
 .signup button{
     width: 100%;
     padding: 1rem 0rem;
-    background: #50de3d;
+    background: #9900cc;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -33,16 +20,16 @@
 }
 
 .signup button:hover{
-    background: #87f383;
+    background: #bf5ced;
     transition: all 0.75s ease-out;
 }
 
 .signin a{
-    color: #50de3d;
+    color: #9900cc;
     text-decoration: none;
     transition: all 0.75s ease-out;
 }
 
 .signin a:hover{
-    color: #87f383;
+    color: #bf5ced;
 }
