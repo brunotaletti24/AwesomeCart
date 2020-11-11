@@ -19,8 +19,8 @@
             <div class="info">
                 <nav class="navbar">
                     <h2>Welcome, <?php echo($_SESSION["username"]); ?></h2>
-                    <a class="logout" href="../inc/settings.php"><i class="fas fa-cog"></i></a>                  
-                    <a class="logout" href="../functions/logout.php"><i class="fas fa-sign-out-alt"></i></a>                  
+                    <a class="menu-btn" href="../inc/settings.php"><i class="fas fa-cog"></i></a>                  
+                    <a class="menu-btn" href="../functions/logout.php"><i class="fas fa-sign-out-alt"></i></a>                  
                 </nav>
                 <h1>Awesome Cart</h1>
                 <h3>Take one discount code bellow and be happy</h3>
@@ -33,7 +33,7 @@
                                         <img src="../img/mainmonster.png">
                                         <h2><?php echo $data['name']; ?></h2>
                                         <h3><?php echo $data['description']; ?></h3> 
-                                        <a class="btn btn-purple btn-block" href="#">Reveal Code</a>
+                                        <button id="revealCode" class="btn btn-purple btn-block" onClick="confirm()" value="<?php echo $data['code']; ?>">Reveal Code</button>
                                     </div>
                                 </td>
                             </tr>
@@ -44,5 +44,6 @@
         </div>
     </div>
     <script src="../js/app.js"></script>
+    <script src="../js/revealcode.js"></script>
 </body>
 </html>
