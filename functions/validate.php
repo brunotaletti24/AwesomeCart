@@ -16,7 +16,7 @@
         //Encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
         if(isset($result)){
             $_SESSION['id'] = $result['id'];
-            $_SESSION['username'] = $result['username'];
+            $_SESSION['firstname'] = $result['first_name'];
             $_SESSION['access_level'] = $result['access_level'];
             if($_SESSION['access_level'] == "2"){
                 header("Location: ../inc/admin.php");

@@ -6,5 +6,5 @@
     SESSION_DESTROY(); 
 
     // Redirect user to main page
-    header("Refresh:2; url=../inc/signin.php");
+    header("Location: ../inc/signin.php");
 ?>

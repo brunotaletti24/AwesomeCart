@@ -4,28 +4,15 @@
     transition: all 0.75s ease-out;
 }
 
-.circle{
-    width: 15rem;
-    height: 15rem;
-    background: linear-gradient(
-        to right,
-        rgba(57, 159, 159, 0.75),
-        rgba(129, 205, 207, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.signup, .signin, .buttons{
+.signin, .signup, .buttons{
     margin-top: 2em;
 }
 
-.signup button{
+.signin button{
     width: 100%;
     margin: 1% 0;
     padding: 1rem 0rem;
-    background: #59bfc1;
+    background: #9900cc;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -33,27 +20,17 @@
     font-weight: bolder;
 }
 
-.signup button:hover{
-    background: #a3dbdc;
+.signin button:hover{
+    background: #bf5ced;
     transition: all 0.75s ease-out;
 }
 
 .buttons a{
-    color: #59bfc1;
+    color: #9900cc;
     text-decoration: none;
     transition: all 0.75s ease-out;
 }
 
 .buttons a:hover{
-    color: #a3dbdc;
-}
-
-.recovery{
-    color: #59bfc1;
-    text-decoration: none; 
-    transition: all 0.75s ease-out;
-}
-
-.recovery:hover{
-    color: #a3dbdc;
+    color: #bf5ced;
 }
