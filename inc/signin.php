@@ -17,7 +17,7 @@
             <div class="info">
                 <h1>Awesome Cart</h1>
                 <h3>Welcome back! Login to access your Awesome Cart.</h3>
-                <form method="POST" action="../functions/signin.php">
+                <form method="POST" action="../functions/validate.php">
                     <input type="text" placeholder="Username" name="username">
                     <input type="password" placeholder="Password" name="password">
                     <div class="signup">
