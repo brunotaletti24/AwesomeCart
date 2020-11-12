@@ -12,7 +12,7 @@ $password = mysqli_real_escape_string($conn, $_POST['password']);
 $password = md5($password);
 
 // Executa a query para adicionar o usuario ao banco
-$query = "INSERT INTO user (first_name, last_name, username, email, phone, password, access_level) VALUES ('$firstname', '$lastname', '$username', '$email', '$phone', '$password', '1')";
+$query = "INSERT INTO users (first_name, last_name, username, email, phone, password, access_level) VALUES ('$firstname', '$lastname', '$username', '$email', '$phone', '$password', '1')";
 $sql = mysqli_query($conn, $query);
 
 // Verifica se o usuario ja existe e executa uma ação
