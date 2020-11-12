@@ -126,6 +126,16 @@ body{
     color: #bf5ced;
 }
 
+.btn-card{
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+.btn-card:hover{
+    color: #585858;
+}
+
 .navbar{
     position: relative;
     display: flex;
@@ -139,7 +149,7 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     color: #000000;
-    transition: color .20s ease-in-out;
+    transition: all 0.75s ease-in-out;
 }
 
 .menu-btn:hover{
