@@ -14,7 +14,7 @@
     <div class="container">
         <div class="card">
             <div class="info">
-                <?php include("../helpers/menu/appmenu.php")?>
+                <?php include("../helpers/menu/settings.php"); ?>
                 <h1>Awesome Cart</h1>
                 <h3>Change your profile settings</h3>
                 <div class="settings">
