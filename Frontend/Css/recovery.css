@@ -1,0 +1,11 @@
+.monster img{
+    width: 13rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.back{
+    margin-top: 1rem;
+    text-align: center;
+    transition: all 0.75s ease-out; 
+}
