@@ -36,3 +36,7 @@ table{
 .code{
     transition: opacity 1s;
 }
+
+.site{
+    text-decoration: none;
+}

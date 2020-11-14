@@ -9,7 +9,11 @@
                     <h2><?php echo $data['name']; ?></h2>
                     <h3><?php echo $data['description']; ?></h3>
                     <input type="hidden" value="<?php echo $data['code']; ?>" id="copyCode"> 
-                    <button class="btn btn-purple btn-block" id="btnCode"><?php echo $data['code']; ?></button>
+                    <a class="site" href="<?php echo $data['site']; ?>" target="_blank">
+                        <button class="btn btn-purple btn-block" id="btnCode">
+                            <?php echo $data['code']; ?>
+                        </button>
+                    </a>
                 </div>
             </td>
         </tr>

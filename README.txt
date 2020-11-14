@@ -1,14 +1,10 @@
-[Frontend]
-- Html:
+Projeto: 
+Esse projeto se resume em uma aplicação de cupons de desconto, as pessoas selecionam seus interesses e recebem cupons de desconto para produtos que estejam de acordo com os mesmos interesses do usuário.
 
-- Css:
+Tarefas favor analisar no Trello:
+https://trello.com/b/WZH8jclD/awesome-cart
 
-- Js:
+Agradecimentos e colaboradores:
 
-[Backend]
-- PHP:  Mudar a conexão com o banco, utilizar PDO;
-	Pegar bloco de códigos repetitivos e joga-los em um arquivo separado, e chama-los em cada páginas atraves de um `include("arquivonome.php");`;
-	Alterar o nome das pastas para algo mais intuitivo;
-	Para buscas e coisas necessárias que seja exibido no URL usar METHOD GET;
-
-- MySQL: Utilizar LIKE em campos de filtro;
+- Italo Alcantara (por acreditar no projeto);
+- Bianca Taletti (por emprestar o seu notebook quando o meu quebrou);

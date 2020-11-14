@@ -20,6 +20,10 @@
         if(isset($result)){
             $_SESSION['id'] = $result['id'];
             $_SESSION['firstname'] = $result['first_name'];
+            $_SESSION['lastname'] = $result['last_name'];
+            $_SESSION['username'] = $result['username'];
+            $_SESSION['email'] = $result['email'];
+            $_SESSION['phone'] = $result['phone'];
             $_SESSION['access_level'] = $result['access_level'];
             if($_SESSION['access_level'] == "2"){
                 header("Location: ../../Frontend/Pages/admin.php");

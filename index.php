@@ -19,7 +19,7 @@
                 <h3>We are an online platform, which checks the prices of the items of any product indicated by you and we offer a phenomenal discount code!</h3>
             </div>
             <div class="signin">
-                <a href="./Frontend/Pages/signin.php"><button class="btn">Sign In</button></a>
+                <a href="./Frontend/Pages/signin.php"><button class="btn">Lets go!</button></a>
             </div>
         </div>
     </div>
