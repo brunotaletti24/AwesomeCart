@@ -97,7 +97,6 @@ body{
     width: 100%;
     margin: 1% 0;
     padding: 1rem 0rem;
-    background: #9900cc;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -107,23 +106,30 @@ body{
     transition: all 0.75s ease-out;
 }
 
-.btn:hover{
-    background: #bf5ced;
-}
-
 .btn-block{
     display: block;
     width: 100%;
 }
 
 .btn-link{
-    color: #9900cc;
     text-decoration: none;
     transition: all 0.75s ease-out;
 }
 
-.btn-link:hover{
-    color: #bf5ced;
+.btn-purple{
+    background: #9900cc;
+}
+
+.btn-purple:hover{
+    background: #bf5ced;
+}
+
+.btn-red{
+    background: #ff0000;
+}
+
+.btn-red:hover{
+    background: #ff3d3d;
 }
 
 .btn-card{
