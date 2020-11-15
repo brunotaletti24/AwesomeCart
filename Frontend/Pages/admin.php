@@ -14,7 +14,7 @@
     <div class="container">
         <div class="card">
             <div class="info">
-                <?php include("../Helpers/Menu/admin.php"); ?>
+                <?php include("../Helpers/Menu/menu.php"); ?>
                 <h1>Awesome Cart</h1>
                 <h3>Manage our business</h3>
                 <div class="sections">

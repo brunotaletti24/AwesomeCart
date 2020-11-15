@@ -1,25 +1,43 @@
 <?php 
+
 // Inclui a conexao com o banco
 include_once("../Database/connection.php");
 
-// Puxa os itens do forulario e trata para evitar ataque sqli
-$firstname = mysqli_real_escape_string($conn, $_POST['first_name']);
-$lastname = mysqli_real_escape_string($conn, $_POST['last_name']);
-$username = mysqli_real_escape_string($conn, $_POST['username']);
-$email = mysqli_real_escape_string($conn, $_POST['email']);
-$phone = mysqli_real_escape_string($conn, $_POST['phone']);
-$password = mysqli_real_escape_string($conn, $_POST['password']);
-$password = md5($password);
+// Puxa os itens do forulario
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$username = $_POST['username'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$password = md5($_POST['password']);
 
-// Executa a query para adicionar o usuario ao banco
-$query = "INSERT INTO users (first_name, last_name, username, email, phone, password, access_level) VALUES ('$firstname', '$lastname', '$username', '$email', '$phone', '$password', '1')";
-$sql = mysqli_query($conn, $query);
+// Verifica se os dados estão disponiveis
 
-// Verifica se o usuario ja existe e executa uma ação
-if(mysqli_insert_id($conn)){
-    header("Location: ../../Frontend/Pages/signin.php");
+// Procura o Usuário
+$verify_username = $db->prepare("SELECT username FROM users WHERE username='$username'");
+$verify_username->execute();
+$verify_username_result = $verify_username->fetchColumn();
+
+// Procura o Email
+$verify_email = $db->prepare("SELECT email FROM users WHERE email='$email'");
+$verify_email->execute();
+$verify_email_result = $verify_email->fetchColumn();
+
+// Faz a verificação
+if($verify_username_result && $verify_email_result){ // Verifica email e usuarios iguais
+    echo "Sorry, this username and email is already registred!";
+} else if($verify_username_result){ // Verifica usuário igual
+    echo "Sorry, username is already registred!";
+} else if($verify_email_result){ // Verifica email iguail
+    echo "Sorry, this email is already registred!";
 } else{
-    echo "Usuário já existe!";
+    // Insere o usuário no banco de dados
+    $query = $db->prepare("INSERT INTO users (first_name, last_name, username, email, phone, password, access_level) VALUES ('$firstname', '$lastname', '$username', '$email', '$phone', '$password', '1')");
+    $query->execute();
+    $result = $query->fetch(PDO::FETCH_ASSOC);
+
+    // Redireciona o mesmo para a página de login
+    header("Location: ../../Frontend/Pages/signin.php");
 }
 
 ?>
