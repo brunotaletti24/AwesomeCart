@@ -17,7 +17,7 @@
                 <h3>Create your account, and get the best discount codes of the world!</h3>
                 <?php include("../Helpers/Forms/signup.php"); ?>
                 <div class="signin"> 
-                    <h3>Already have an account? <a class="btn-link" href="./signin.php">Sign In</a></h3>
+                    <h3>Already have an account? <a class="btn-link btn-link-purple" href="./signin.php">Sign In</a></h3>
                 </div>
             </div>
         </div>

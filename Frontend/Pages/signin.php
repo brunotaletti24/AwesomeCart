@@ -17,9 +17,9 @@
                 <h3>Welcome back! Login to access your Awesome Cart.</h3>
                 <?php include("../Helpers/Forms/signin.php"); ?>
                 <div class="buttons"> 
-                    <h3>Did you <a class="btn-link" href="./recovery.php">forget your passoword?</a></h3>
+                    <h3>Did you <a class="btn-link btn-link-purple" href="./recovery.php">forget your passoword?</a></h3>
                     <h3>or</h3>
-                    <h3>Dont have an account? <a class="btn-link" href="./signup.php">Sign Up</a></h3>
+                    <h3>Dont have an account? <a class="btn-link btn-link-purple" href="./signup.php">Sign Up</a></h3>
                 </div>
             </div>
         </div>

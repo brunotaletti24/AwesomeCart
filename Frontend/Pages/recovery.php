@@ -17,7 +17,7 @@
                 <h3>Reover your account, just put your email bellow</h3>
                 <?php include("../Helpers/Forms/recovery.php"); ?>
                 <div class="back"> 
-                    <h3><a class="btn-link" href="javascript:history.back()">Back to login</a></h3>
+                    <h3><a class="btn-link btn-link-purple" href="javascript:history.back()">Back to login</a></h3>
                 </div>
             </div>
         </div>

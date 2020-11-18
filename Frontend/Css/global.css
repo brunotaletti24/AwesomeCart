@@ -116,6 +116,14 @@ body{
     transition: all 0.75s ease-out;
 }
 
+.btn-link-purple{
+    color:#9900cc;
+}
+
+.btn-link-purple:hover{
+    color:#bf5ced;
+}
+
 .btn-purple{
     background: #9900cc;
 }

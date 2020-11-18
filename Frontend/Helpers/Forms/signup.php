@@ -6,7 +6,7 @@
     <input type="text" placeholder="Phone number" id="phone" name="phone">
     <input type="password" placeholder="Password" name="password">
     <div class="signup">
-        <button class="btn" type="submit">Lets go!</button>
+        <button class="btn btn-purple" type="submit">Lets go!</button>
     </div>
     <script src="../Js/phone.js"></script>
 </form>
