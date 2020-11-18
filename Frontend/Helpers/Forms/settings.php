@@ -10,10 +10,10 @@
     <input type="text" placeholder="Phone number" name="phone" id="phone" value="<?php echo $_SESSION["phone"]; ?>">
     
     <button class="btn btn-purple btn-block" type="submit">Change</button>
-         
-    <a href="#">
-        <button class="btn btn-red">Delete my account</button>
-    </a>
 
     <script src="../Js/phone.js"></script>
+</form>
+
+<form method="POST" action="../../Backend/Configs/deleteaccount.php">
+    <button class="btn btn-red" type="submit">Delete my account</button>
 </form>

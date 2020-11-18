@@ -1,16 +1,16 @@
-<a class="btn-card" href="#1">
+<a class="btn-card" href="#see-the-graphics">
     <div class="section">
         <em class="fas fa-chart-pie"></em>
         <h2>Graphics</h2>
-        <h3>get a total view of everything</h3>
+        <h3>get a total view of everything [Coming soon...]</h3>
     </div>
 </a>
 
-<a class="btn-card" href="#2">
+<a class="btn-card" href="#manage-customers">
     <div class="section">
         <em class="fas fa-user-circle"></em>
         <h2>Customers</h2>
-        <h3>manage customers</h3>
+        <h3>manage customers [Coming soon...]</h3>
     </div>
 </a>
 
@@ -22,10 +22,10 @@
     </div>
 </a>
 
-<a class="btn-card" href="#4">
+<a class="btn-card" href="#manage-app">
     <div class="section">
         <em class="fas fa-rocket"></em>
         <h2>App</h2>
-        <h3>manage app settings</h3>
+        <h3>manage app settings [Coming soon...]</h3>
     </div>
 </a>

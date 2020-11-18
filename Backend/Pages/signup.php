@@ -3,7 +3,7 @@
 // Inclui a conexao com o banco
 include_once("../Database/connection.php");
 
-// Puxa os itens do forulario
+// Puxa os itens do formulário
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $username = $_POST['username'];
