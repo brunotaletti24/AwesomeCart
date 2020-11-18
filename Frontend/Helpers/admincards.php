@@ -2,7 +2,7 @@
     <div class="section">
         <em class="fas fa-chart-pie"></em>
         <h2>Graphics</h2>
-        <h3>get a total view of everything [Coming soon...]</h3>
+        <h3>[Coming soon...] Get a total view of everything</h3>
     </div>
 </a>
 
@@ -10,7 +10,7 @@
     <div class="section">
         <em class="fas fa-user-circle"></em>
         <h2>Customers</h2>
-        <h3>manage customers [Coming soon...]</h3>
+        <h3>[Coming soon...] Manage customers</h3>
     </div>
 </a>
 
@@ -26,6 +26,6 @@
     <div class="section">
         <em class="fas fa-rocket"></em>
         <h2>App</h2>
-        <h3>manage app settings [Coming soon...]</h3>
+        <h3>[Coming soon...] Manage app settings</h3>
     </div>
 </a>
