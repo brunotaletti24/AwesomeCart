@@ -14,7 +14,7 @@
     </div>
 </a>
 
-<a class="btn-card" href="#3">
+<a class="btn-card" href="../Pages/Admin/discount.php">
     <div class="section">
         <em class="fas fa-ticket-alt"></em>
         <h2>Discount coupon</h2>
