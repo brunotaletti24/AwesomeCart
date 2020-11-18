@@ -11,6 +11,7 @@
     <title>Awesome Cart - Discount</title>
 </head>
 <body>
+    <?php include("../../Helpers/notification.php"); ?>
     <div class="container">
         <div class="card">
             <div class="info">

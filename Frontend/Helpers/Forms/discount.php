@@ -1,4 +1,4 @@
-<form method="POST" action="../../Backend/Products/addproduct.php">
+<form method="POST" action="../../../Backend/Products/addproduct.php">
     <input type="text" placeholder="Product name" name="productname">
     
     <input type="text" placeholder="Description" name="description">

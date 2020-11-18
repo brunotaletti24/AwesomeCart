@@ -1,3 +1,5 @@
+/*====== HELPERS ======*/
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,8 @@ body{
     align-items: center;
 }
 
+/*====== APP ======*/
+
 .card{
     background-color: #fff;
     transform-style: preserve-3d;
@@ -32,26 +36,6 @@ body{
     border-radius: 30px;
     padding: 5% 5%;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
-}
-
-.circle{
-    width: 15rem;
-    height: 15rem;
-    background: linear-gradient(
-        to right,
-        rgba(153, 0, 204, 0.75),
-        rgba(190, 92, 237, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.monster{
-    min-height: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .info h1{
@@ -92,7 +76,29 @@ body{
 .info form{
     transition: all 0.75s ease-out;
 }
+/*== LOGIN, SIGNUP AND RECOVERY SCREENS ==*/
 
+.circle{
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(153, 0, 204, 0.75),
+        rgba(190, 92, 237, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.monster{
+    min-height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*====== BUTTONS ======*/
 .btn{
     width: 100%;
     margin: 1% 0;
@@ -150,15 +156,6 @@ body{
     color: #585858;
 }
 
-.navbar{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1.5rem;
-}
-
 .menu-btn{
     font-size: 1.5rem;
     text-decoration: none;
@@ -168,4 +165,98 @@ body{
 
 .menu-btn:hover{
     color: #585858;
+}
+
+/*== MENU ==*/
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+
+/*====== RESPONSIVE DESIGN ======*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    .container{
+        width: 98%;
+    } 
+
+    .card{
+        width: 95%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 95%;
+    } 
+
+    .card{
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        width: 95%;
+    } 
+
+    .card{
+        width: 90%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 90%;
+    } 
+
+    .card{
+        width: 70%;
+        padding: 3% 3%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 80%;
+    } 
+
+    .card{
+        width: 75%;
+        padding: 4% 3%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1500px) {
+    .container{
+        width: 65%;
+    } 
+
+    .card{
+        width: 60%;
+        padding: 4% 3%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 2000px and up) */
+@media only screen and (min-width: 2000px) {
+    .container{
+        width: 65%;
+    } 
+
+    .card{
+        width: 55%;
+        padding: 4% 3%;
+    }
 }
